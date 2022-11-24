@@ -35,7 +35,7 @@ _As of now, a doctor can only book an appointment with another doctor by making 
 
 # Usage instructions: Get it to work on your own device!
 ## library inclusion and installation: *with vsCode*.
--> Install the suitable version of JavaFX libraries from https://gluonhq.com/products/javafx/ .<br>
+-> Install the suitable version of JavaFX libraries from *[This Link.](https://gluonhq.com/products/javafx/)* .<br>
 -> Exract the zip file into a folder.<br>
 -> Access the 'lib' folder inside it to find the jar libraries.<br>
 -> Then make sure that those jar libraries along with the sql connector are included as such:<br>
