@@ -41,6 +41,11 @@ _As of now, a doctor can only book an appointment with another doctor by making 
 -> Then make sure that those jar libraries along with the sql connector are included as such:<br>
 ![image](https://user-images.githubusercontent.com/104731395/203766509-90b69df2-32fa-43d4-ac1d-f65bed23765f.png)
 
+-> You must also download and include the OpenCSV Jar Library which you can download from <a src = "https://mvnrepository.com/artifact/au.com.bytecode/opencsv/2.4 ">here.</a> 
+Include it like so:
+![WhatsApp Image 2022-11-24 at 16 54 54](https://user-images.githubusercontent.com/104731395/203774300-792e4d09-c42c-47a8-8c8a-5589f552ce60.jpg)
+
+
 -> Now, from the vscode menu on the top left, click "Run", then click "Add Configuration".<br>
 -> We now add the following code to it: <br>
 ![image](https://user-images.githubusercontent.com/104731395/203768419-cac376d4-0b64-4558-9cb3-a79a5ba13384.png)
