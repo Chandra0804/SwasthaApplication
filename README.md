@@ -27,14 +27,14 @@ _As of now, a doctor can only book an appointment with another doctor by making 
 ## Utilized softwares/ Libraries:
 
 -> **Java FX** : for writing GUI<br>
--> **Scene Builder** : for GUI Building and Visualization.<br>
+-> **[Scene Builder](https://gluonhq.com/products/scene-builder/)** : for GUI Building and Visualization.<br>
 -> **Java SQL Library** : MySQL Library for writing information onto the local database.<br>
 -> **OpenCSV** :  To process CSV Files
 
 ---
 
 # Usage instructions: Get it to work on your own device!
-## library inclusion and installation: *with vsCode*.
+## library inclusion and installation: *with [vsCode](https://code.visualstudio.com/)*.
 -> Install the suitable version of JavaFX libraries from *[This Link.](https://gluonhq.com/products/javafx/)* .<br>
 -> Exract the zip file into a folder.<br>
 -> Access the 'lib' folder inside it to find the jar libraries.<br>
