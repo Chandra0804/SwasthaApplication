@@ -35,25 +35,25 @@ _As of now, a doctor can only book an appointment with another doctor by making 
 
 # Usage instructions: Get it to work on your own device!
 ## library inclusion and installation: *with vsCode*.
--> Install the suitable version of JavaFX libraries from https://gluonhq.com/products/javafx/ .
--> Exract the zip file into a folder.
--> Access the 'lib' folder inside it to find the jar libraries.
--> Then make sure that those jar libraries along with the sql connector are included as such:
+-> Install the suitable version of JavaFX libraries from https://gluonhq.com/products/javafx/ .<br>
+-> Exract the zip file into a folder.<br>
+-> Access the 'lib' folder inside it to find the jar libraries.<br>
+-> Then make sure that those jar libraries along with the sql connector are included as such:<br>
 ![image](https://user-images.githubusercontent.com/104731395/203766509-90b69df2-32fa-43d4-ac1d-f65bed23765f.png)
 
--> Now, from the vscode menu on the top left, click "Run", then click "Add Configuration".
--> We now add the following code to it: 
+-> Now, from the vscode menu on the top left, click "Run", then click "Add Configuration".<br>
+-> We now add the following code to it: <br>
 ![image](https://user-images.githubusercontent.com/104731395/203768419-cac376d4-0b64-4558-9cb3-a79a5ba13384.png)
 
--> The line of code: "vmArgs": "--module-path \"C:/path/to/lib\" --add-modules javafx.controls,javafx.fxml"
-  - Make sure that the **path to the 'lib' folder**, in which all the jar files reside, is put inside the above line instead of \"C:/path/to/lib\"
-  - make sure to save that configuration by pressing *Ctrl + S*.
--> That's pretty much it for the imports!
+-> The line of code: "vmArgs": "--module-path \"C:/path/to/lib\" --add-modules javafx.controls,javafx.fxml"<br>
+  - Make sure that the **path to the 'lib' folder**, in which all the jar files reside, is put inside the above line instead of \"C:/path/to/lib\"<br>
+  - make sure to save that configuration by pressing *Ctrl + S*.<br>
+-> That's pretty much it for the imports!<br>
 
 ## Running the project
--> Now that we're done importing and including all the libraries, it's time to run the project.
--> Navigate over to the "App.java" File in the downloaded code.
--> Now, click the "run" right above the main function:
+-> Now that we're done importing and including all the libraries, it's time to run the project.<br>
+-> Navigate over to the "App.java" File in the downloaded code.<br>
+-> Now, click the "run" right above the main function:<br>
 ![image](https://user-images.githubusercontent.com/104731395/203771291-c650ef8b-99d8-4d2b-abcf-aa78d961d0a7.png)
 
 ##And... Voila!
