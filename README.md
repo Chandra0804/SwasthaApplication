@@ -31,3 +31,35 @@ _As of now, a doctor can only book an appointment with another doctor by making 
 -> **Java SQL Library** : MySQL Library for writing information onto the local database.<br>
 -> **OpenCSV** :  To process CSV Files
 
+---
+
+# Usage instructions: Get it to work on your own device!
+## library inclusion and installation: *with vsCode*.
+-> Install the suitable version of JavaFX libraries from https://gluonhq.com/products/javafx/ .
+-> Exract the zip file into a folder.
+-> Access the 'lib' folder inside it to find the jar libraries.
+-> Then make sure that those jar libraries along with the sql connector are included as such:
+![image](https://user-images.githubusercontent.com/104731395/203766509-90b69df2-32fa-43d4-ac1d-f65bed23765f.png)
+
+-> Now, from the vscode menu on the top left, click "Run", then click "Add Configuration".
+-> We now add the following code to it: 
+![image](https://user-images.githubusercontent.com/104731395/203768419-cac376d4-0b64-4558-9cb3-a79a5ba13384.png)
+
+-> The line of code: "vmArgs": "--module-path \"C:/path/to/lib\" --add-modules javafx.controls,javafx.fxml"
+  - Make sure that the **path to the 'lib' folder**, in which all the jar files reside, is put inside the above line instead of \"C:/path/to/lib\"
+  - make sure to save that configuration by pressing *Ctrl + S*.
+-> That's pretty much it for the imports!
+
+## Running the project
+-> Now that we're done importing and including all the libraries, it's time to run the project.
+-> Navigate over to the "App.java" File in the downloaded code.
+-> Now, click the "run" right above the main function:
+![image](https://user-images.githubusercontent.com/104731395/203771291-c650ef8b-99d8-4d2b-abcf-aa78d961d0a7.png)
+
+##And... Voila!
+![image](https://user-images.githubusercontent.com/104731395/203771363-b186837a-430b-42a2-9f0e-31b8945a454b.png)
+
+---
+
+
+
