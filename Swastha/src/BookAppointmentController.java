@@ -88,7 +88,7 @@ public class BookAppointmentController implements Initializable {
                     stmt.setString(4, DoctorEmailField.getText());
                     stmt.setString(5, PatientEmailField.getText());
                     stmt.executeUpdate();
-                    Alert alert = new Alert(Alert.AlertType.ERROR);
+                    Alert alert = new Alert(Alert.AlertType.INFORMATION);
                     alert.setContentText("Appointment Booked Sucessfully");
                     alert.show();
 
