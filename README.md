@@ -41,7 +41,7 @@ _As of now, a doctor can only book an appointment with another doctor by making 
 -> Then make sure that those jar libraries along with the sql connector are included as such:<br>
 ![image](https://user-images.githubusercontent.com/104731395/203766509-90b69df2-32fa-43d4-ac1d-f65bed23765f.png)
 
--> You must also download and include the OpenCSV Jar Library which you can download from [Here.](https://mvnrepository.com/artifact/au.com.bytecode/opencsv/2.4)
+-> You must also download and include the OpenCSV Jar Library which you can download from *[Here.](https://mvnrepository.com/artifact/au.com.bytecode/opencsv/2.4)*<br>
 Include it like so:
 ![WhatsApp Image 2022-11-24 at 16 54 54](https://user-images.githubusercontent.com/104731395/203774300-792e4d09-c42c-47a8-8c8a-5589f552ce60.jpg)
 
