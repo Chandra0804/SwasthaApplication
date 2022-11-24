@@ -53,10 +53,10 @@ _As of now, a doctor can only book an appointment with another doctor by making 
 ## Running the project
 -> Now that we're done importing and including all the libraries, it's time to run the project.<br>
 -> Navigate over to the "App.java" File in the downloaded code.<br>
--> Now, click the "run" right above the main function:<br>
+-> Now, click the *Run* right above the main function:<br>
 ![image](https://user-images.githubusercontent.com/104731395/203771291-c650ef8b-99d8-4d2b-abcf-aa78d961d0a7.png)
 
-##And... Voila!
+## And... Voila!
 ![image](https://user-images.githubusercontent.com/104731395/203771363-b186837a-430b-42a2-9f0e-31b8945a454b.png)
 
 ---
