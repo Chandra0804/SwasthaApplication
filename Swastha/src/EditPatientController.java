@@ -45,7 +45,7 @@ public class EditPatientController implements Initializable {
             @Override
             public void handle(ActionEvent event) {
 
-                DBUtilities.editPatient(event,username.getText(), password.getText(),Attribute.getValue(),ChangeTo.toString());
+                DBUtilities.editPatient(event,username.getText(), password.getText(),Attribute.getValue(),ChangeTo.getText());
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setContentText("Updated!");
                 alert.show();
